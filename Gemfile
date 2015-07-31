@@ -7,7 +7,7 @@ gem 'doorkeeper'
 gem 'sqlite3'
 gem 'devise'
 gem 'cancancan', '~> 1.10'
-gem "slim-rails"git add .
+gem "slim-rails"
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
@@ -24,6 +24,7 @@ group :development do
   gem 'lol_dba'
   gem 'request-log-analyzer'
   gem 'thin'
+  gem 'binding_of_caller'
   gem 'rack-mini-profiler', require: false
   gem 'letter_opener'
   gem 'letter_opener_web'
